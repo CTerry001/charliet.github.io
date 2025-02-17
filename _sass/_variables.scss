@@ -6,36 +6,35 @@
 @use "sass:color";
 
 // Colors
-$red-color: #ff3636 !default;
-$red-color-dark: #b71c1c !default;
-$orange-color: #f29105 !default;
-$blue-color: #0076df !default;
-$blue-color-dark: #00369f !default;
-$cyan-color: #2698ba !default;
+$red-color: #e78284 !default; //catpuccin
+$red-color-dark: #ea999c !default; //catpuccin
+$orange-color: #ef9f76 !default; //catppuccin
+$blue-color: #99d1db !default; //catppuccin
+$blue-color-dark: #8caaee !default; //catppuccin
+$cyan-color: #8caaee !default; //cappuccin
 $light-cyan-color: color.adjust($cyan-color, $lightness: 25%);
-$green-color: #00ab37 !default;
-$green-color-lime: #b7d12a !default;
-$green-color-dark: #009f06 !default;
-$green-color-light: #ddffdd !default;
-$green-color-bright: #11d68b !default;
-$purple-color: #b509ac !default;
+$green-color: #a6d189 !default; //catpuccin
+$green-color-lime: #99d1db !default; //catpuccin
+$green-color-dark: #81c8be !default; //catpuccins
+$green-color-light: #85c1dc !default; //catpuccin
+$green-color-bright: #a6d189 !default; //catpuccin
+$purple-color: #ca9ee6 !default; //catpuccin
 $light-purple-color: color.adjust($purple-color, $lightness: 25%);
-$pink-color: #f92080 !default;
-$pink-color-light: #ffdddd !default;
-$yellow-color: #efcc00 !default;
+$pink-color: #f4b8e4 !default; //catppuccin
+$pink-color-light: #eebebe !default; //catppuccin
+$yellow-color: #e5c890 !default; //catppuccin
 
-$grey-color: #828282 !default;
+$grey-color: #51576d; //catpuccin
 $grey-color-light: color.adjust($grey-color, $lightness: 40%);
-$grey-color-dark: #1c1c1d;
-$grey-900: #212529;
+$grey-color-dark: #303446; //catppuccin
 
-$white-color: #ffffff !default;
-$black-color: #000000 !default;
+$white-color: #c6d0f5 !default; //catppuccin
+$black-color: #303446 !default; //catppuccin
 
 // Theme colors
 
 $code-bg-color-light: rgba($purple-color, 0.05);
-$code-bg-color-dark: #2c3237 !default;
+$code-bg-color-dark: #303446 !default; //catppuccin
 
 // Font awesome location
 $fa-font-path: "../webfonts";
