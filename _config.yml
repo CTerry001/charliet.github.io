@@ -146,9 +146,11 @@ collections:
       layout: post
     output: true
     permalink: /:collection/:title/
-  projects:
-    output: false
-    permalink: /:collection/:title/
+  
+  # Commenting out due to deleted page 2/18/25
+  #projects:
+    # output: false
+    # permalink: /:collection/:title/
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
